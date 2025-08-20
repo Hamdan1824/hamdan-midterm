@@ -1,0 +1,341 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+}
+nav{
+    margin:20px 75px 0 75px;
+}
+.navbar-nav .nav-item {
+      margin: 0 15px;
+    }
+    .search-container {
+      position: relative;
+    }
+    .search-container .bi-search {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: gray;
+    }
+    .search-container input {
+      padding-left: 35px;
+    }
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      height: fit-content;
+      background-color: bisque;
+      margin: 10px 75px 0 75px;
+    }
+
+    .main-text {
+      max-width: 50%;
+    }
+
+    .main-text h3 {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .main-text h1 {
+      font-size: 85px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .main-text p {
+      font-size: 25px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .email-box {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 30px;
+      overflow: hidden;
+      width: fit-content;
+    }
+
+    .email-box input {
+      border: none;
+      padding: 12px 20px;
+      outline: none;
+      font-size: 16px;
+      border-radius: 30px 0 0 30px;
+    }
+
+    .email-box button {
+      background: black;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 0 30px 30px 0;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .email-box button:hover {
+      background: #333;
+    }
+
+    .main-image img{
+      width: 500px;
+      border-radius: 10px;
+    }
+    .then{
+        text-align: center;
+        font-size: 40px;
+        font: weight 600;
+        margin-top: 10px;
+    }
+    .logowork{
+        display: flex;
+        margin: 13px;
+        }
+    .ans{
+        margin: 20px 75px 0 75px;
+    }
+    .select{
+        margin: 20px 75px 0 75px;
+    }
+    .get{
+        margin: 20px 75px 0 75px;
+    }
+    .logowork h4{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .projects h1{
+        font-size: xx-large;
+        margin: 10px 0 10px 75px;
+        font-weight: 600;
+    }
+    .box{
+        display: flex;
+        justify-content: space-between;
+        margin: 75px;       
+    }
+    .box h2{
+        font-size: x-large;
+        font-weight: 600;
+        margin-left: 2px;
+    }
+    .box p{
+        font-size: medium;
+        color: gray;
+        margin: 10px 0;
+        margin-left: 2px;
+    }
+    .box span{
+        margin-left: 2px;
+        font-size: medium;
+        font-weight: 600;
+    }
+    .box1, .box2, .box3{
+        width: 30%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow:  rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    }
+    .box img{
+        border-radius: 10px 10px 0 0;
+        align-content: center;
+    }
+    .global #main{
+      position: relative;
+      left: 28%;
+      text-align: center;
+      width: 550px;
+      font-size: xx-large;
+      font-weight: 800;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.text-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid black;
+}
+#btn1{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+#btn2{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.stats {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.stats h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.orange { color: orange; }
+.green { color: green; }
+.red { color: brown; }
+
+.image-content {
+  flex: 1;
+}
+
+.image-content img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+
+.main2 {
+  margin: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background: #fcd9b8;
+  padding: 40px;
+}
+
+.main2-content {
+  flex: 1;
+}
+
+.main2-content h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.main2-content p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.email input {
+  padding: 12px 15px;
+  border-radius: 25px 0 0 25px;
+  border: none;
+  outline: none;
+  width: 250px;
+  font-size: 15px;
+}
+
+.email button {
+  padding: 12px 20px;
+  border-radius: 0 25px 25px 0;
+  border: none;
+  background: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.email button:hover {
+  background: #333;
+}
+
+.email-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+footer{
+  text-align: center;
+  padding: 30px;
+}
+.footer .real{
+  font-size: xx-large;
+  font-weight:900;
+  color: #ffa500;
+}
+.estate{
+  font-size: xx-large;
+  font-weight:900;
+}
+.footer p{
+  font-size: large;
+}
+.links{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  color: white;
+  background: #333;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.links :hover{
+  transform: scale(1.1);
+  background-color: blue;
+}
+.design{
+  margin-top: 10px;
+}
